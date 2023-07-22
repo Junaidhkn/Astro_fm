@@ -10,7 +10,9 @@
 		"astro": "astro"
 	},
 	"dependencies": {
-		"astro": "^2.5.5"
+		"@nanostores/react": "^0.7.1",
+		"astro": "^2.5.5",
+		"nanostores": "^0.9.3"
 	},
 	"devDependencies": {
 		"@types/markdown-it": "^12.2.3",
