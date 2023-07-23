@@ -1,6 +1,8 @@
 ---
 import Layout from '../layouts/page.astro';
 
+export const prerender = false;
+
 let message;
 if (Astro.request.method === 'POST') {
 	try {
@@ -25,7 +27,7 @@ if (Astro.request.method === 'POST') {
 		</p>
 	</div>
 
-	<form method="post" class="newsletter">
+	<form method="post" class:list={{ newsletter: true, visible: !message }}>
 		<label for="name">Name</label>
 		<input type="text" id="name" name="name" required />
 
