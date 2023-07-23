@@ -4,6 +4,11 @@ import react from "@astrojs/react";
 import solidJs from "@astrojs/solid-js";
 
 // https://astro.build/config
-export default defineConfig({
-  integrations: [react(), solidJs()]
-});
+export default defineConfig( {
+  site: 'https://astro-frontend-masters.netlify.app/',
+  integrations: [react(), solidJs()],
+  output: 'hybrid',
+  experimental: {
+    hybridOutput: true
+  }
+} );
