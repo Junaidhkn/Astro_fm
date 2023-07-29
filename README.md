@@ -1,10 +1,7 @@
-# Astro Frontend Masters Workshop
+# Astro Shoping cart and A Blog Page
 
-TKTK
 
-## What are we building?
-
-Small business site that uses several of the common workflows that many (most?) websites end up following.
+## Small business site that uses several of the common workflows that many (most?) websites end up following.
 
 - Marketing landing page
   - Hero images
@@ -27,7 +24,7 @@ Small business site that uses several of the common workflows that many (most?) 
   - Markdown page
 - 404 page
 
-## What features do we want to cover?
+## What features we want?
 
 - Initializing a new Astro site
 - Local development
